@@ -5,24 +5,27 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const Home = React.lazy(() => import("./pages/Home/Home"));
 const SomePage = React.lazy(() => import("./pages/SomePage/SomePage"));
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: (
-      <Suspense>
-        <Home />
-      </Suspense>
-    ),
-  },
-  {
-    path: "/some-page",
-    element: (
-      <Suspense>
-        <SomePage />
-      </Suspense>
-    ),
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: (
+        <Suspense>
+          <Home />
+        </Suspense>
+      ),
+    },
+    {
+      path: "/some-page",
+      element: (
+        <Suspense>
+          <SomePage />
+        </Suspense>
+      ),
+    },
+  ],
+  { basename: "/css-code-splitting-issue" }
+);
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

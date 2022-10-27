@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/136.855973ab.chunk.css","mappings":"AAAA,gCACE,WCDF,2BACE","sources":["components/CommonPageHeader/CommonPageHeader.module.scss","pages/SomePage/SomePage.module.scss"],"sourcesContent":[".header {\n  color: black;\n}\n",".redHeader {\n  color: red;\n}\n"],"names":[],"sourceRoot":""}

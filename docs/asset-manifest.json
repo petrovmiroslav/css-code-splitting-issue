@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/css-code-splitting-issue/static/js/main.c55c0084.js",
+    "static/css/499.408c3ff0.chunk.css": "/css-code-splitting-issue/static/css/499.408c3ff0.chunk.css",
+    "static/js/499.da8f6a83.chunk.js": "/css-code-splitting-issue/static/js/499.da8f6a83.chunk.js",
+    "static/css/136.855973ab.chunk.css": "/css-code-splitting-issue/static/css/136.855973ab.chunk.css",
+    "static/js/136.a3f4c4d2.chunk.js": "/css-code-splitting-issue/static/js/136.a3f4c4d2.chunk.js",
+    "index.html": "/css-code-splitting-issue/index.html",
+    "main.c55c0084.js.map": "/css-code-splitting-issue/static/js/main.c55c0084.js.map",
+    "499.408c3ff0.chunk.css.map": "/css-code-splitting-issue/static/css/499.408c3ff0.chunk.css.map",
+    "499.da8f6a83.chunk.js.map": "/css-code-splitting-issue/static/js/499.da8f6a83.chunk.js.map",
+    "136.855973ab.chunk.css.map": "/css-code-splitting-issue/static/css/136.855973ab.chunk.css.map",
+    "136.a3f4c4d2.chunk.js.map": "/css-code-splitting-issue/static/js/136.a3f4c4d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c55c0084.js"
+  ]
+}
